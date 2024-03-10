@@ -11,7 +11,6 @@ RES = (25*TAM, 20*TAM)
 FPS = 60
 
 
-
 class Ball():
     def __init__(self, x=RES[0]//2, y=RES[1]//2, collideTolerance=10):
         self.tam = TAM//2
